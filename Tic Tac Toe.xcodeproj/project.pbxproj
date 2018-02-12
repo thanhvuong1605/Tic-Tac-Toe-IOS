@@ -14,6 +14,9 @@
 		97FB8D0A200D6A9A009FC258 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97FB8D08200D6A9A009FC258 /* LaunchScreen.storyboard */; };
 		97FB8D15200D6A9A009FC258 /* Tic_Tac_ToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FB8D14200D6A9A009FC258 /* Tic_Tac_ToeTests.swift */; };
 		97FB8D20200D6A9A009FC258 /* Tic_Tac_ToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FB8D1F200D6A9A009FC258 /* Tic_Tac_ToeUITests.swift */; };
+		97FB8D30200D6AC1009FC258 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 97FB8D2D200D6AC1009FC258 /* board.png */; };
+		97FB8D31200D6AC1009FC258 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 97FB8D2E200D6AC1009FC258 /* cross.png */; };
+		97FB8D32200D6AC1009FC258 /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = 97FB8D2F200D6AC1009FC258 /* nought.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		97FB8D1B200D6A9A009FC258 /* Tic Tac ToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tic Tac ToeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		97FB8D1F200D6A9A009FC258 /* Tic_Tac_ToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tic_Tac_ToeUITests.swift; sourceTree = "<group>"; };
 		97FB8D21200D6A9A009FC258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97FB8D2D200D6AC1009FC258 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		97FB8D2E200D6AC1009FC258 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		97FB8D2F200D6AC1009FC258 /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 		97FB8CFE200D6A9A009FC258 /* Tic Tac Toe */ = {
 			isa = PBXGroup;
 			children = (
+				97FB8D2D200D6AC1009FC258 /* board.png */,
+				97FB8D2E200D6AC1009FC258 /* cross.png */,
+				97FB8D2F200D6AC1009FC258 /* nought.png */,
 				97FB8CFF200D6A9A009FC258 /* AppDelegate.swift */,
 				97FB8D01200D6A9A009FC258 /* ViewController.swift */,
 				97FB8D03200D6A9A009FC258 /* Main.storyboard */,
@@ -232,6 +241,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97FB8D31200D6AC1009FC258 /* cross.png in Resources */,
+				97FB8D30200D6AC1009FC258 /* board.png in Resources */,
+				97FB8D32200D6AC1009FC258 /* nought.png in Resources */,
 				97FB8D0A200D6A9A009FC258 /* LaunchScreen.storyboard in Resources */,
 				97FB8D07200D6A9A009FC258 /* Assets.xcassets in Resources */,
 				97FB8D05200D6A9A009FC258 /* Main.storyboard in Resources */,
